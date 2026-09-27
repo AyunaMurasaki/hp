@@ -136,7 +136,7 @@ button { cursor: pointer; }
 .works-grid { grid-template-columns: repeat(2, 1fr); }
 .work-card:first-child { grid-column: 1 / -1; display: grid; grid-template-columns: 1.2fr .8fr; }
 .work-card:first-child img { height: 100%; min-height: 360px; }
-.social-links { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; margin-top: 36px; }
+.social-links { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; margin-top: 36px; }
 .social-link { padding: 22px; border: 1px solid var(--line); border-radius: 16px; text-align: center; font-weight: 700; background: #fff; transition: .2s; }
 .social-link:hover { color: #fff; border-color: var(--sea-deep); background: var(--sea-deep); }
 
