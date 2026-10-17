@@ -309,7 +309,7 @@ button { cursor: pointer; }
 .pillar .link-arrow { margin-top: auto; }
 .pillar .card-number { color: var(--accent); }
 
-.video-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 40px; }  /* 3本（2026-10-18 歌酒場・はるさーダンサーズを外し、中城モールのライブを加えた） */
+.video-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; margin-top: 40px; }  /* 2本（2026-10-18 歌酒場・はるさーダンサーズ・中城モールを外した） */
 .video { display: block; overflow: hidden; border: 1px solid var(--line); border-radius: 20px; background: #fff; color: inherit; }
 .video .thumb { position: relative; display: block; }
 .video .thumb img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
